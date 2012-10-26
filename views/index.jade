@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  
+  form.login_form(method='post', action='/parse')
+    div
+      label(for='uri') MongoDB Uri:
+      input#uri.text(name='uri', size='200') 
+
+    div
+      label(for='parsed') MongoDB Parsed:
+      input#uri.text(name='parsed', size='200', value='#{parsed}') 
+
+    .form-actions
+      button.primary.flRight(type='submit')
+        span Parse
