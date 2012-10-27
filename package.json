@@ -1,6 +1,6 @@
 {
-  "name": "URI Bud",
-  "version": "0.0.1",
+  "name": "uriBud",
+  "version": "0.0.1-3",
   "private": true,
   "scripts": {
     "start": "node app"
@@ -10,8 +10,8 @@
     "jade": "*",
     "stylus": "*"
   },
-  "subdomain":"mongouri",
+  "subdomain": "mongouri",
   "engines": {
-    "node":"0.8.x"
+    "node": "0.8.x"
   }
 }
